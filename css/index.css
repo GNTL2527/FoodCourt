@@ -1,0 +1,74 @@
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 100px;
+  padding-top: 0%;
+  margin-top: 0%;
+  margin-bottom: 35px;
+  color: white;
+}
+
+p{
+  text-align: justify;
+  margin-right: 180px;
+  margin-left: 180px;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.Foods{
+  display: inline-block;
+}
+
+.Foods button{
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.Foods a{
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+.Foods .contents{
+  display: none;
+  background-color: hsl(0, 0%, 95%);
+  position: absolute;
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.80);
+}
+
+.Foods:hover  .contents{
+  display: block;
+}
+
+.Foods:hover  button{
+  background-color: white;
+  color: black;
+}
+
+.Foods a:hover{
+  background-color: pink;
+}
+
+hr{
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 40px;
+  color: pink;
+}
+
+body{
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}

@@ -1,0 +1,48 @@
+#karepic {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+#karepic img{
+  margin-top: 20px;
+  height: 400px;
+  width: 300px;
+  border-radius: 15px;
+}
+
+h1{
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 70px;
+  text-shadow: 3px  3px 5px pink, -3px -3px 5px pink;
+}
+
+hr{
+  border: 2px solid pink;
+  border-radius: 40px;
+  color: pink;
+}
+
+.Back button{
+  background-color: hsl(0, 0%, 80%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.Back:hover  button{
+  background-color: pink;
+}
+
+pre{
+  text-align: justify;
+  margin-right: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#ingredients{
+  margin-right: 200px;
+}
